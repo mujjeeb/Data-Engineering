@@ -1,0 +1,599 @@
+,job_id,employer_website,job_employment_type,job_title,job_apply_link,job_description,skillset,job_city,job_country,job_posted_at_date,employer_company_type
+0,ZJqhTNEpPXkAAAAAAAAAAA==,http://www.spinmaster.com,FULLTIME,Data Engineer,https://ca.linkedin.com/jobs/view/data-engineer-at-spin-master-3666783692,"Please Note: If you are a current Spin Master employee with access to Workday, apply to this job via the Workday application.
+
+Are you a kid at heart looking to build a career with a leading global children's toy, entertainment and digital gaming company?
+
+At Spin Master, our unwavering commitment to open mindedness, integrity and innovation is a great part of what has made us an industry leader. How do we stay ahead of the pack? By hiring the best and brightest minds—and that’s why we want you!
+
+Job Description
+
+What will you work on?
+
+You will be designing and developing tools, data products and data pipelines that can cater to Data Analysis Data Science needs of the organization
+
+How will you create impact?
+• Work with various business stakeholders and IT to identify and meet data requirements.
+• Able to architect, develop, and manage our data infrastructure.
+• Deliver scalable, testable, maintainable, and high-quality code.
+• Build a solid foundation, that can easily scale to changing business needs, for calculating key business metrics.
+• Enable cross functional collaboration by building an agile data insight driven culture.
+• Communicating updates and changes to the broader data team as well as contributing to and maintaining data-related documentation.
+• Have a high-level understanding of data (data sources, type of data, data definition)
+• Remote First setup with 15-20% of time in office to start, but subject to change
+
+What are your skills and experience?
+• 2+ years’ experience in a Data Engineering type role.
+• A degree in computer science/computer engineering or a resume full of practical experience.
+• Proficient with SQL and familiar with relational / non-relational database approaches and knowing which to apply where and when.
+• Understand the principles of software engineering and are comfortable coding in one or more programming languages (eg: Java, Python, Scala, etc).
+• Understand the Data Lifecycle Management is a plus.
+• Hands on experience in data warehouse (Azure, AWS or GCP) and related products.
+
+What You Can Expect From Us
+
+Our mission is to Make Life More Fun with a vision to push the boundaries of innovation, creativity, and fun.
+• Growth and Career Opportunities
+• Flexible Work Hours
+• Innovation, Collaboration and Fun
+• Comprehensive Benefits
+• Other fun Perks!
+
+What’s it like to work here?
+
+Spin Master is a fast-paced, hands-on organization that provides many great opportunities for impactful decision-making; though our challenging start-up atmosphere isn’t for everyone, we have a proven record of opportunities for future advancement and internal transfers for our passionate and results driven team.
+
+Everyone is welcome in our sandbox and we are committed to an accessible and inclusive hiring process that provides reasonable accommodation to all applicants.
+
+Spin Master strives to create an accessible and inclusive application and selection process and is committed to working with and providing reasonable accommodation to job applicants who may require provisions to participate in the recruitment, selection and/or assessment processes. Should you require an accommodation, please contact our Talent Acquisition team, by email at TAinquiries@spinmaster.com or by phone at 416 364-6002 and we will work with you to meet your accessibility needs.
+
+Follow us on Instagram and Twitter @SpinMaster to stay up to date on Spin Master career opportunities.
+
+We do appreciate all interest; however only those selected for interview will be contacted.","['Python', 'SQL', 'AWS', 'GCP', 'Azure']",Toronto,CA,2023-07-18,Entertainment
+1,NXCuHi0a2QgAAAAAAAAAAA==,http://www.manulife.com,FULLTIME,"Senior Database, Data Engineer",https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/CAN-Ontario---Full-Time-Remote/Senior-Database--Data-Engineer_JR23051478-1,"We are a leading financial services provider committed to making decisions easier and lives better for our customers and colleagues around the world. From our environmental initiatives to our community investments, we lead with values throughout our business. To help us stand out, we help you step up, because when colleagues are healthy, respected and meaningfully challenged, we all thrive. Discover how you can grow your career, make impact and drive real change with our Winning Team today. Working Arrangement At Home Job Description Introduction Are you excited about helping to develop solutions that really make a difference in an organization? ... Then this is the opportunity you've been looking for. We are looking for an energetic, self-motivated individual to join our team of highly skilled Data / Database Engineers, dedicated to accelerating the adoption of data and database engineering solutions across Manulife. As part of our team, you would be contributing to a community driven project which is focused on removing roadblocks and empowering teams, developing cloud-based solutions and implementations, simplifying adherence to security standards, and promoting best practices. Qualifications Data and Database Engineering is an ever-changing landscape of technologies - as such, we are not looking for a specific set of qualifications, but rather a successful candidate would likely be able to demonstrate most (if not all) of the following: Bachelor's degree in Computer Science, Computer Engineering, Information Technology, or relevant field. 2-5+ years of experience architecting scalable distributed systems. 2+ years of experience in Data Engineering A general understanding of enterprise database systems, with hands on experience using one or more database technologies (Azure Sql database, Azure Sql managed instance, Mongo DB Atlas, Cosmos DB or Oracle). Experience with automated deployments, CI/CD pipelines and/or DevOps technologies such as Jenkins Pipelines, Azure DevOps, Git Actions, Flyway etc. A desire to extend your understanding of cloud and the ability to learn through experimentation. Experience with Infrastructure as Code and/or scripted infrastructure deployments (Terraform experience preferred). Experience developing modern applications in at least one programming language (Java, Python, .Net, Go, Java script, power shell …etc.) Experience collaborating on and/or managing code in a source code versioning system (Git, Bitbucket, etc.) A proactive, solutions-focused, collaborative approach to problem solving. A customer focused mindset, and a genuine desire to contribute to a community-based project. While not necessarily required, a sense of humor is always a plus. Are You Right for this position? You tell us! You’ll notice the list of qualifications is a little vague - that’s intentional because our team is continuously evolving, and we don’t want to miss out on a great candidate just because their resume didn’t include the right set of acronyms. If you are excited about this opportunity and think you are a good fit for our team - we want to hear from you. About Manulife and John Hancock Manulife Financial Corporation is a leading international financial services group that helps people make their decisions easier and lives better. With our global headquarters in Toronto, Canada, we operate as Manulife across our offices in Asia, Canada, and Europe, and primarily as John Hancock in the United States. We provide financial advice, insurance, and wealth and asset management solutions for individuals, groups and institutions. At the end of 2022, we had more than 40,000 employees, over 116,000 agents, and thousands of distribution partners, serving over 34 million customers. At the end of 2022, we had $1.3 trillion (US$1.0 trillion) in assets under management and administration, including total invested assets of $0.4 trillion (US $0.3 trillion), and segregated funds net assets of $0.3 trillion (US$0.3 trillion). We trade as ‘MFC’ on the Toronto, New York, and the Philippine stock exchanges, and under ‘945’ in Hong Kong. Manulife is an Equal Opportunity Employer At Manulife/John Hancock, we embrace our diversity. We strive to attract, develop and retain a workforce that is as diverse as the customers we serve and to foster an inclusive work environment that embraces the strength of cultures and individuals. We are committed to fair recruitment, retention, advancement and compensation, and we administer all of our practices and programs without discrimination on the basis of race, ancestry, place of origin, colour, ethnic origin, citizenship, religion or religious beliefs, creed, sex (including pregnancy and pregnancy-related conditions), sexual orientation, genetic characteristics, veteran status, gender identity, gender expression, age, marital status, family status, disability, or any other ground protected by applicable law. It is our priority to remove barriers to provide equal access to employment. A Human Resources representative will work with applicants who request a reasonable accommodation during the application process. All information shared during the accommodation request process will be stored and used in a manner that is consistent with applicable laws and Manulife/John Hancock policies. To request a reasonable accommodation in the application process, contact recruitment@manulife.com. Salary & Benefits The annual base salary for this role is listed below. Primary Location CAN, Ontario - Full Time Remote Salary range is expected to be between $89,950.00 CAD - $167,050.00 CAD If you are applying for this role outside of the primary location, please contact recruitment@manulife.com for the salary range for your location. The actual salary will vary depending on local market conditions, geography and relevant job-related factors such as knowledge, skills, qualifications, experience, and education/training. Employees also have the opportunity to participate in incentive programs and earn incentive compensation tied to business and individual performance. Manulife offers eligible employees a wide array of customizable benefits, including health, dental, mental health, vision, short- and long-term disability, life and AD&D insurance coverage, adoption/surrogacy and wellness benefits, and employee/family assistance plans. We also offer eligible employees various retirement savings plans (including pension and a global share ownership plan with employer matching contributions) and financial education and counseling resources. Our generous paid time off program in Canada includes holidays, vacation, personal, and sick days, and we offer the full range of statutory leaves of absence. If you are applying for this role in the U.S., please contact recruitment@manulife.com for more information about U.S.-specific paid time off provisions. We are a leading financial services provider committed to making decisions easier and lives better for our customers and colleagues around the world. From our environmental initiatives to our community investments, we lead with values throughout our business. To help us stand out, we help you step up, because when colleagues are healthy, respected and meaningfully challenged, we all thrive. We offer work that challenges and makes a difference within a flexible and supportive environment, so you can help make decisions easier and lives better for our customers. We’re proud of our accomplishments and recognitions. Recent awards include: Forbes 2022 World’s Best Employers Canada’s Top 100 Employers 2023 Best Place to Work in Asia-Pacific 2022 Canada’s Top Employers for Young People 2023 Best Place to Work for LGBTQ Equality 2022 To receive our latest job opportunities directly to your inbox, create an account or sign in and navigate to the 'Job Alerts' section located in the top right corner of the page. From there, you can sign up to receive job alerts. Discover how you can grow your career, make impact and drive real change with our Winning Team today at www.manulife.com/careers.","['Python', 'SQL', 'AWS', 'Azure', 'Ci/Cd']",,CA,2023-07-19,Finance
+2,1DrqGnTnI6oAAAAAAAAAAA==,http://leasequery.com,FULLTIME,Data Engineer,"https://www.ziprecruiter.com/c/LeaseQuery/Job/Data-Engineer/-in-Atlanta,NS?jid=9f924ff2df7cf7fb","LeaseQuery is looking for a Data Engineer II to join our Engineering team. We're seeking someone
+with a passion for improvement; both in our processes and in yourself. We work in an Agile
+environment with development teams utilizing Scrum and Kanban. At LeaseQuery, a Data Engineer
+is a person who focuses on the design, scalability and malleability of our data infrastructure. They
+work on teams using agile approaches building artifacts needed to sustain the technical systems
+beyond data management/ETL (documentation, data dictionaries, designs and so on). The ideal
+candidate has deep knowledge of SQL database design, experience with data warehouses across
+multiple databases, and expertise in the design, creation, management, and business use of large
+datasets.
+
+LeaseQuery's headquarters is located in Atlanta, GA, but this role can sit 100% remote.
+
+What you will be doing:
+• Ensure scalable, reliable, and performant AWS PostGres databases and environments
+• Application and system monitoring and performance tuning
+• Interfacing daily with Development teams and other departments
+• Monitoring and providing feedback to developer driven data architecture changes
+• Participating in release and deployments
+• Identifying, designing, and implementing internal process improvements including re-designing infrastructure for greater scalability, optimizing data delivery, and automating manual processes
+• Working with stakeholders including engineering, product, and executive teams and assisting them with data-related technical issues and inquiries
+• Proposing new technologies and practices as solutions or improvements to existing systems
+• Research, assess, and enhance ETL pipeline
+• Developing architectural roadmap for the databases, potentially including a move towards sharding
+• Experience with designing data warehousing solutions and integrating systems
+
+What experience and skills we need you to have:
+• 2+ years in a data/database engineer role
+• 4+ years of experience working with databases and data architectures in any IT role
+• Experience designing, building, deploying, and scaling databases
+• Solid understanding of data architecture
+• An attitude of success defined in team accomplishments
+
+Tech you will work with:
+• Hosting and Administration: AWS RDS/Aurora
+• Communication: Atlassian Jira, Slack
+• Database: PostgreSQL, MS SQL Server
+• DataWarehouses & Integration Systems: Snowflake, FiveTran, Celigo
+• Analytics and Logging: DataDog, Tableau
+• Build and deployment tools: Git, Liquibase
+• Languages: SQL, Python, Shell Scripting
+
+Benefits
+• Flexible PTO (including 11 holidays and your birthday off)
+• 401(k) plan with employer matching
+• Great health benefits with multiple plan option
+• Option to choose between in office, fully remote, or a hybrid work environment for all employees
+• Sabbatical program (4 weeks after 5 years of service)
+• Casual dress environment (when in office)
+• Catered lunches every Tuesday and Thursday
+• Company events each quarter
+• Signing stipend for a work-from-home setup
+• Free gym membership at our office
+• Annual employee development program stipend of $2,000 for each employee
+• Flexible parental leave with 10 weeks paid leave for ALL new parents
+• Fertility/adoption assistance
+• Annual tutoring stipend for your children
+• Mentorship program available immediately
+• Regular team outings
+• Advancement opportunities based on results, not politics
+• Culture that emphasizes inclusiveness driven by our REDI Committee
+
+About Us
+LeaseQuery simplifies complex accounting with our innovative FinTech SaaS technology. Our products, used by more than 3000+ organizations in 87 countries, are top rated for user satisfaction and ease of use by G2, and our company has appeared on the Deloitte Technology's Fast 500 list and Georgia's Fast 40 list among many other recent accolades over the past several years.
+
+During the past decade, our CEO, George Azih, grew LeaseQuery from a one-person company to a workforce of 350+ representing one of the fastest-growing FinTech companies today. As we move into our next phase of growth, we're looking for passionate and dedicated people who want to invest their energy to align with our company's long-term goals.
+
+#LI-Remote
+
+Apply for this job","['ETL', 'Python', 'SQL', 'AWS', 'Postgres', 'Jira', 'Fivetran']",,CA,2023-07-14,
+3,SLAf7ND9yOwAAAAAAAAAAA==,,FULLTIME,"Data Engineer - ETL, Data Modeling, Python, SQL, GCP",https://www.monster.ca/job-openings/data-engineer-etl-data-modeling-python-sql-gcp--9c780bf3-4963-434c-8a44-29d58c2a5968,"Data Engineer - ETL, Data Modeling, Python, SQL, GCP
+On behalf of our client in the Retail Sector, PROCOM is looking for a Data Engineer - ETL, Data Modeling, Python, SQL, GCP.
+Data Engineer - ETL, Data Modeling, Python, SQL, GCP – Job Description
+• Responsible for designing and implementing the infrastructure necessary to store, process, and analyze large sets of data
+• Work with stakeholders to understand their business needs and develop scalable and reliable data architectures
+• Ensure that the infrastructure is optimized for performance and efficiency
+• Assessing new data ingestion requirements by working with source data teams/SMEs and the internal data eng senior engineers
+• Designing, planning and aligning on ingestion pipeline solutions including tech/tools available in Google Cloud platform
+• Data modelling using existing team-built dbt framework
+• Bug fixes and delivering new feature request for existing ETLs
+• Documenting progress and status in Jira
+• Documenting business domain knowledge in team’s online wiki/confluence
+
+Data Engineer - ETL, Data Modeling, Python, SQL, GCP – Mandatory Skills
+• 2-3 years Data Engineering experience
+• ETL, Orchestration, Data Modeling
+• Python and SQL experience
+• Google Cloud Platform (GCP) experience
+
+Data Engineer - ETL, Data Modeling, Python, SQL, GCP - Assignment Start Date
+ASAP – 5 months to start
+Data Engineer - ETL, Data Modeling, Python, SQL, GCP - Assignment Location
+Toronto, ON – Work Remotely
+
+Remote
+
+About the Company:
+Procom
+
+Procom is one of North America’s leading staffing and contract workforce services providers. A privately held company, Procom has been deeply committed to continuous growth and improvement for both ourselves and our clients.
+
+Successfully meeting the needs of Fortune 500 clients since 1978, Procom has 14 offices across North America, with over 8,500 skilled professionals currently on assignment.
+
+Our business succeeds because we are reliable and our clients trust us, and we work hard to earn that trust by providing keen insight and a commitment to transparency. Through ongoing partnerships, we have become recognized as the market-leading source of high-performing services and solutions that transform how our clients acquire and manage the very best talent.
+
+With prestigious recognition, including being named one of Deloitte’s Best Managed Companies each year since we first qualified in 2006, we are extremely proud of what we’ve accomplished.
+
+In every aspect, we rely on the excellence of individuals to make a difference. We know that people matter. And we want to work with you.
+
+Company Size:
+5,000 to 9,999 employees
+
+Industry:
+Other/Not Classified
+
+Founded:
+1978
+
+Website:
+https://www.procom.ca/home","['ETL', 'Orchestration', 'Modeling', 'Python', 'SQL', 'GCP', 'Google Cloud', 'Jira', 'DBT']",,CA,2023-07-19,Staffing
+4,AltbfKU8qNcAAAAAAAAAAA==,http://solink.com,FULLTIME,Data Integrations Engineer,"https://www.glassdoor.ca/job-listing/data-integrations-engineer-solink-JV_IC2286068_KO0,26_KE27,33.htm?jl=1008762986334","Data Integrations Engineer
+
+Solink is a different kind of data-analytics software company. We’ve successfully made surveillance video a source of powerful insight for business owners of franchise and retail chains. We focus on security applications that combat fraud proactively and make it easier for owners to track down problems. Today we focus on loss prevention and in the future, we see every department using video to make data-driven decisions: marketing, operations, even HR.
+
+A job at Solink means working with an amazing team and tackling one of the biggest data problems out there. We are venture backed and focus on continuous execution to delight our customers. We have a creative and collaborative work environment, and all of our employees have meaningful equity in the company.
+
+A bit about the role…
+
+The data team at Solink builds and manages a growing list of over 250 integrations to various data systems, including databases, POS’s, access control systems, analytics, API’s and more. These integrations form the basis of Solink’s powerful data analytics platform, which is a critical component of the Solink application.
+
+As a Data Integrations Engineer on the Solink Data team, your job will be to build and maintain these data integrations. You will write code to extract/collect the data from the source, analyze/parse it, load it into the Solink database, and enable all of the reporting that is required by the customer. As Solink’s customer base continues to grow and the Solink platform continues to evolve, these data integrations will be critical in ensuring that customers can get the most out of their data, and as a result, get the most out of Solink.
+
+WHO YOU ARE:
+• Bachelor of Science Degree or higher education (Computer Science or related field is an asset), or similar!
+• 1-2 years of similar work experience
+• You are curious in nature and have a strong desire to help customers get the most from our service
+• You love systems integration and everything that comes with it
+• You are curious about business operations. You get excited about solving operational challenges - you dig in and get the work done.
+• You have experience with Javascript, Typescript, NodeJS and AWS serverless infrastructure, other scripting languages could be useful too.
+• You have basic knowledge or familiarity with APIs
+• You are comfortable reverse engineering other people's code to extend and modify functionality.
+• You pride yourself on: ‘done quick, done right and done once’
+• You are a great listener and know how to manage expectations.
+• You stay cool under pressure and look for ways to support your teammates.
+• Experience using Jira - or a similar ticketing system, would be an asset
+
+SECURITY REQUIREMENTS:
+• Candidates must undergo a criminal records check upon hire;
+• Be a Canadian Citizen (dual citizens included), or eligible to work in Canada;
+• Be willing to comply with Solink’s own security policies and standards.
+
+WHAT WILL YOU DO?
+• Own the process of bringing data reliably into Solink’s infrastructure
+• Write software that interacts with physical devices deployed in live customer locations
+• Build tools to pull data from various locations (APIs, SDKs, etc)
+• Contribute and collaborate when needed in a variety of other ways across the Solink Data team
+• Implementing ongoing QA and monitoring processes to ensure the reliability of data integration and related processes
+• Supporting the ongoing maintenance of integrations
+• Keeping up to date on new developments and technology in the integration domain.
+• Act as subject matter expert, participating in the selection of new software and data integration tools.
+• Lead multi-source integration development to attack and resolve critical customer operational challenges
+• With a growing company comes many challenges - The successful candidate will have an aptitude to grow into the challenges presented to them.
+
+WHAT IS SOLINK?
+
+Solink is transforming conventional data into ‘smart’ data. Solink connects and synchronizes brick-and-mortar business systems like video + Point of Sale data, to create insight into loss prevention, security, and operations issues. We find new and powerful ways for businesses to get real value from the data and footage created daily by their standard systems.
+
+We’re one of Ottawa’s fastest growing companies. We're not just a tech and security company - we are rapidly evolving the way that we use and think about video security, data analytics and technology. We're enhancing the status quo to positively impact clients and customers' businesses.
+
+We’re on a steep growth trajectory, which means lots to do, lots to learn, and lots to experience! What an exciting adventure ahead - and our Solinkians make the greatest travel companions…
+
+Solink thrives because of our team; we know that in our business and in our daily work, people make all the difference. We’re looking for people who are driven by curiosity, hungry to innovate and striving to make an impact.
+
+WHY WORK AT SOLINK?
+
+Working with us means you’ll be working for a company that values your input and allows you to bring your ideas to life. We offer a collaborative, creative, supportive work environment with a culture that is undeniably fun…
+
+All that - PLUS we offer…..
+• Flexibility in your chosen hours of work by helping you get ""stuff"" done (encourages that work life balance);
+• Opportunities for growth based on merit, skill, and initiative;
+• Friendly, welcoming and team-oriented atmosphere that fosters collaboration;
+• Creative and innovative environment that mentors, supports, motivates and inspires you to make an impact;
+• Interesting and exciting assignments ranging in size, type and complexity;
+• An “open-door” policy where communication and brainstorming is encouraged;
+• A really positive and fun environment working with an incredibly ENERGETIC team;
+• Competitive salary reviewed annually;
+• Fully paid Health / dental benefits offered immediately (an additional $500 spending account for items that aren’t covered in our AMAZING benefits program);
+• Monthly reimbursement toward a health and wellness;
+• Extracurricular SOLINKIAN social events (annual “solink-o de mayo”, so-learns, sports teams, so-lunches, team builders, and much more)
+• Please note: We are currently operating within a hybrid model.
+
+We know that everyone has different experiences and that’s what makes all of us so unique. Solink is an Equal Opportunity Employer. We’re looking at building our team of great people and we know that comes in various forms. We are committed to a diverse and representative workforce, an open and inclusive work environment and we encourage all candidates with interest to apply. We will provide accommodation on request through all parts of the selection process.
+
+HOW TO APPLY?
+
+Please submit your cover letter and resume addressed to Baby Yoda outlining why you would be the right fit for this position.
+
+Solink welcomes and encourages applications from people with disabilities. Accommodations are available on request for candidates taking part in all aspects of the selection process. Should you need accommodations, please email peopleops@SolinkCorp.com.","['AWS', 'Jira']",Ottawa,CA,2023-07-17,
+5,IdkRv-cEjN4AAAAAAAAAAA==,,FULLTIME,Data Engineer​/STB,https://www.learn4good.com/jobs/online_remote/info_technology/2461103133/e/,"Position: Data Engineer (STB)
+
+The Government Technology Agency (Gov Tech) seeks to transform the delivery of Government Digital Services by taking an ""outside-in"" view, putting citizens and businesses at the heart of everything we do. We also develop the Smart Nation infrastructure and applications, and facilitate collaboration with the public to co-develop technologies.
+
+Join us as we support Singapore’s vision of building a Smart Nation - a nation of possibilities empowered through info-communications technology and related engineering.
+
+The Data Engineer will be responsible for overseeing the integration of datasets across STB’s platforms to ensure that data from disparate sources are consolidated for use.
+
+You will also support the deployment of developed algorithms, machine learning and analytical models into current analytics system/production environment.
+
+You will also be required to work closely with the existing team of data scientists, analysts and relevant line units to ensure the success of the data project(s) in delivering the project goals and managing internal and external stakeholders.
+
+What you will be working on:
+• Lead in the implementation of data project(s) on StanTI (StanTI is the platform where many of the source datasets required to build the end-to-end visitor profile are stored).
+• Work closely with vendors and engage internal stakeholders to project manage and coordinate data ingestion and data processing pipelines across STB’s systems and platforms.
+• Lead discussions with internal stakeholders to establish data requirements, evaluate technical feasibility and data availability required for STB’s project(s).
+• Develop data integrations and data processing pipelines between different source systems to assemble large, complex datasets that meet functional and non-functional business requirements
+
+What we are looking for:
+• At least 2-3 years of Software Project Management experience successfully managing both internal stakeholders and external vendors.
+• Successfully delivered at least 2 medium to large scale software systems in either a Project Management role, Data Architect role or Data Integration role
+• Ability to understand the different business domains and to make connections between the data and the business needs so that requirements are captured and implemented correctly.
+• Experience in designing database schemas to support OLTP and OLAP systems.
+• Experience with Cloud based platforms (AWS, GCP, Azure) and cloud data products such as Athena, Glue, S3, AWS Data Pipeline, Big Query, Cloud Dataflow etc.
+• Strong competency with SQL.
+• Experience with object-oriented / object functional scripting languages:
+Python, R, Java, etc.
+• Able to lead, drive and facilitate discussions with internal / external stakeholders to establish data requirements, evaluate technical feasibility and data availability required for STB’s project(s).
+• Self-starter and able to work independently and within a project team to help meet the project goals and objectives.
+• Good and strong communication skills and able to explain the issues, design tradeoffs between performance, maintenance and business requirements.
+• Able to clearly articulate and justify the design decisions taken
+• Good attention to details with regards to data workflow, data quality, data integrity and how the data will be stored and accessed.
+• Strong analytics skills related to working with structured and unstructured datasets.
+• Experience in performing root cause analysis on internal and external data and processes to answer specific business questions and identify opportunities for improvement.
+• Intellectual curiosity to find new and unusual ways of how to solve data management issues.
+
+We are an equal opportunity employer and value diversity at our company as we believe that diversity is meaningful to innovation. Our employee benefits are based on a total rewards approach, offering a holistic and market-competitive suite of perks. This includes generous leave benefits to meet your work-life needs. We trust that you will get the job done wherever you are, and whatever works best for you – so work from home or take a break to exercise if you need to*.
+
+We also believe it’s important for you to keep honing your craft in the constantly-evolving tech landscape, so we provide and support a plethora of in-house and external learning and development opportunities all year round.
+• Subject to the nature of your job role that might require you to be onsite during fixed hours
+
+The Singapore Public Service plays a key role in the economic growth, progress and stability of Singapore by formulating and implementing government policies, as well as providing key public services. Whether you are a fresh graduate joining the workforce or an experienced professional, the Singapore Public Service offers a great variety of job opportunities for you. The work in the Public Service can be broadly categorised into the following sectors:
+Economic, Social, Security & External Relations, and Administration & Corporate Development.
+
+Be part of the…","['Python', 'SQL', 'AWS', 'GCP', 'Azure', 'S3']",,SG,2023-07-16,
+6,tDOUYPNaDwYAAAAAAAAAAA==,,FULLTIME,AI Data Engineer,https://prompthero.com/jobs/technology-ai-innovation-jobs,"A market leader in credit intelligence, Reorg brings together journalists, financial analysts, legal analysts, technologists, and data scientists to collect and synthesize highly complex information into actionable intelligence. Since 2013, tens of thousands of professionals across hedge funds, investment banks, management consulting, and law firm verticals have come to rely on Reorg to make better, faster, and more confident decisions in pace with the fast-moving credit markets. For more information, visit: www.reorg.com
+
+Working at Reorg
+
+Consistent with our growth, Reorg hires innovators and trailblazers across the globe to drive our business and our incredible corporate culture alike. Our core values – Action Oriented, Customer First Mindset, Effective Team Players, and Driven to Excel – define an organizational ethos that’s as high-performing as it is human. Among other perks, Reorg employees enjoy competitive health benefits, matched 401k and pension plans, Paid time off, generous parental leave, gym subsidies, educational reimbursements for career development, recognition programs, pet-friendly offices, and much more.
+
+The Role
+
+Reorg is seeking a skilled and motivated Data Engineer to join our team. As a Data Engineer, you will work on complex problems at the intersection of finance and technology, collaborating with the senior data engineer, data scientists, product and software developers to contribute to Reorg's data pipeline development efforts. As an integral part of the Data Science team, you will assist data scientists with data acquisition, organization, and effectively utilizing the results they generate. You will play an essential role in proposing, building, and executing various data pipelines that leverage existing data to enhance Reorg's cutting-edge financial intelligence platform.
+
+Responsibilities
+• Design, build, and maintain data pipelines and ETL processes that will support data acquisition, processing, and storage
+• Develop and maintain data models and schema design for efficient data retrieval and storage
+• Collaborate with data scientists, software developers, and product owners to identify and implement data-driven solutions that will enhance our financial intelligence platform
+• Work with software developers to integrate data science models into our products and services
+• Continuously improve our data processing and storage infrastructure to ensure scalability, reliability, and security
+• Keep up-to-date with new developments in big data technologies and evaluate their potential for improving our data engineering processes
+• Participate in code reviews and ensure adherence to best practices
+Proven experience
+• Working with structured and unstructured data (HTML, JSON, PDF, XML)
+• Converting unstructured data into structured format for ML purposes
+• Data processes such as ETL, wrangling, and cleansing using logic and regular expressions
+• Webscraping using tools like Selenium, Beautifulsoup, etc
+• Building data pipelines to support LLMs, LLM Framework (LangChain), Embeddings, Vector Database experience is a plus
+Requirements
+• Bachelor's degree or higher in Computer Science, Data Science, or a related field
+• 2+ years data engineering and ETL experience
+• Proven expertise with Python and R
+• Experience with Linux and JenkinsFamiliarity with DevOps and agile development methodologies
+• Proficiency with SQL and atleast one NoSQL databases, preferably ElasticSearch
+• Knowledge of parallel computing, AWS, and REST APIs
+• Strong problem-solving and analytical skills, and openness to feedback and inclination towards continuous learning
+• Excellent communication and collaboration skills, and team player mindsetProfessional experience working in the finance industry is a plus
+• Background in handling information extraction and retrieval tasks from financial industry-related documents is a plus
+
+At Reorg, we consider a range of factors in connection with compensation decisions, including experience, skills, location, and our business needs and limitations. As a result, compensation may vary within and across similar roles and positions. Please note that the salary range information below is a good faith estimate for this position and actual compensation for any individual may fall outside this range if warranted by the circumstances applicable to that individual. If we identify a role that would be suitable for a broader range of skills and experience such that we would consider hiring at multiple levels then the range listed below may reflect that breadth.
+
+The salary range estimate for this position is $100,000-$130,000.
+
+The actual compensation will be at Reorg’s sole discretion and will be determined by the aforementioned and other relevant factors. This position is eligible for an annual discretionary bonus.
+
+Reorg provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability or genetics. In addition to federal law requirements, Reorg complies with applicable state and local laws governing nondiscrimination in employment in every location in which the company has facilities. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.","['ETL', 'Python', 'SQL', 'AWS', 'Linux']",,CA,2023-07-15,
+7,v2zDqvqNv-sAAAAAAAAAAA==,,FULLTIME,Data Engineer II at Cover Genius,https://www.remotejobswebo.com/job/data-engineer-ii-at-cover-genius/,"The Company
+
+Cover Genius is a Series D insurtech that protects the global customers of the world’s largest digital companies including Booking Holdings, owner of Priceline, Kayak and Booking.com, Intuit, Hopper, Skyscanner, Ryanair, Turkish Airlines, Descartes ShipRush, Zip and SeatGeek. We’re also available at Amazon, Flipkart, eBay, Wayfair and SE Asia’s largest company, Shopee. Our partners integrate with XCover, our award-winning insurance distribution platform, to embed protection for millions of customers worldwide each year.
+
+Our team and products have been recognised with dozens of awards including by the Financial Times who ranked Cover Genius as the #1 fastest growing company in APAC in 2020. Our diverse team across 20+ countries and many language groups commits itself to diverse cultural programs, in particular “CG Gives” which makes social entrepreneurs out of us all and funds development initiatives in global communities.
+
+Our People are
+
+Bold, Authentic, Purposeful and Inspired
+
+Our People are not
+
+Perfect, Traditional, Complacent or Cautious
+
+About the role
+
+As a Data Engineer on our data Team, you will own the responsibilities of developing and maintaining robust data pipelines and data infrastructure for our analytics, machine learning and reporting platform.
+
+To drive success in this role, you will have experiences in using SQL and Python to design and implement the data platform using in cloud. As the Data Engineer you will regular collaborate with data scientists, software engineers and other data users in ensuring the desired data availability and accuracy are achieved.
+
+What your working week will involve;
+• * Practice the best software engineering principles to design and implement efficient data pipelines to collect, process, store large volumes of data, from both SQL, API, streaming data and so on.
+• Following the best practices to maintain and operate the data platform including Airflow, dbt, Dataflow and BigQuery. Achieving the required data availability and accuracy KPI.
+• Implementing data governance and security measures, ensuring compliance with data privacy regulations and best practices.
+• Troubleshooting and resolving data-related issues, conducting root cause analysis, and implementing preventive measures.
+• Support Machine Learning Engineers to creating real-time and batch data pipelines that fit the data specification and ML inference assessment
+• Support Analytics Engineers to build out data models to build out metrics for product performance
+
+Educational Qualifications;
+• * B.S., M.S in Data Science, Computer Science, Math or a related STEM field
+
+What the ideal profile looks like;
+• * Minimum 1 year of working experiences as a data engineer
+• Strong proficiency in using cloud data warehouse such as BigQuery, Snowflake, Redshift or any other cloud based data warehouse.
+• You have proficient SQL and Python coding skills to deliver reliable solutions for data engineering and/or machine learning use
+• You have experiences developing Airflow or other open source data orchestration tool and operate it in production environment for work
+• You are reliable as an individual, owning the work you shipped
+• You are self-motivated and continuously study the new practices and toolings in data engineering
+
+Why Cover Genius?
+
+Cover Genius not only cares about being the best in our industry, we care about our team. We’re a business that understands life can be fluid and so we flex to ensure we provide the environment to suit that. Some of the benefits we have are:
+
+• Flexible Work Environment – we are outcome focussed and understand that for our people to perform at their best flexibility is critical. With the recent impact of Covid we gave 15 days additional leave to all employees for when they need a break and some well-deserved downtime.
+
+• Employee Stock Options – we want our people to share in our success, we reward them with ownership for their contribution in creating a world-class company.
+
+• Work with like-minded people who are passionate about both the work we’re doing and giving back. Our CG Gives programs enables us to all become philanthropists through our peer recognition and rewards system.
+
+• Social Initiatives – pictures speak a thousand words!
+
+Sound interesting? If you think you have the best composition of the above, send us your resume and let’s chat!
+• Cover Genius promotes diversity and inclusivity. We don’t tolerate discrimination, demeaning treatment of anyone, or harassment due to race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or any other legally protected status.","['Orchestration', 'Python', 'SQL', 'DBT', 'Amazon', 'Airflow']",,,2023-07-17,
+8,jlJ3UVruwPAAAAAAAAAAAA==,,FULLTIME,Machine Learning Engineer,"https://www.glassdoor.ca/job-listing/machine-learning-engineer-pragra-JV_KO0,25_KE26,32.htm?jl=1008712111498","We are looking for a highly capable machine learning engineer to optimize our machine learning systems. You will be evaluating existing machine learning (ML) processes, performing statistical analysis to resolve data set problems, and enhancing the accuracy of our AI software's predictive automation capabilities.
+
+To ensure success as a machine learning engineer, you should demonstrate solid data science knowledge and experience in a related ML role. A first-class machine learning engineer will be someone whose expertise translates into the enhanced performance of predictive automation software.
+
+Machine Learning Engineer Responsibilities:
+• Designing machine learning systems and self-running artificial intelligence (AI) software to automate predictive models.
+• Transforming data science prototypes and applying appropriate ML algorithms and tools.
+• Ensuring that algorithms generate accurate user recommendations.
+• Turning unstructured data into useful information by auto-tagging images and text-to-speech conversions.
+• Solving complex problems with multi-layered data sets, as well as optimizing existing machine learning libraries and frameworks.
+• Developing ML algorithms to analyze huge volumes of historical data to make predictions.
+• Running tests, performing statistical analysis, and interpreting test results.
+• Documenting machine learning processes.
+• Keeping abreast of developments in machine learning.
+
+Machine Learning Engineer Requirements:
+• Bachelor's degree in computer science, data science, mathematics, or a related field.
+• Master’s degree in computational linguistics, data analytics, or similar will be advantageous.
+• At least two years' experience as a machine learning engineer.
+• Advanced proficiency with Python, Java, and R code writing.
+• Extensive knowledge of ML frameworks, libraries, data structures, data modeling, and software architecture.
+• In-depth knowledge of mathematics, statistics, and algorithms.
+• Superb analytical and problem-solving abilities.
+• Great communication and collaboration skills.
+• Experience with ED-Tech Industry or ATS systems is a big plus.
+• Excellent time management and organizational abilities.
+
+Job Types: Full-time, Permanent
+
+Salary: 8 Lacs - 12 Lcas (Based on Experience)
+
+Schedule:
+• 8 hour shift
+• Day shift
+• Evening shift
+• Monday to Friday
+
+Supplemental pay types:
+• Bonus pay
+• Overtime pay
+• Tips
+
+Experience:
+• Machine Learning Engineer (preferred)
+
+Work Location:
+
+Remote
+
+Job Type: Full-time
+
+Schedule:
+• Monday to Friday
+
+Work Location: Remote
+
+Speak with the employer
++91 7986746562","['Modeling', 'Python', 'Mage']",,CA,2023-07-19,
+9,6V5Eoh0-uL0AAAAAAAAAAA==,http://www.veeva.com,FULLTIME,Data Analyst,https://careers.veeva.com/job/14183378/data-analyst-remote/,"Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $2B in revenue in our last fiscal year with extensive growth potential ahead.
+
+At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company – we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors.
+
+As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment.
+
+Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities.
+
+The Role
+
+Veeva is looking for an all-star Data Analyst to grow a global data platform for Customer Relationship Management and other applications. We’re looking for a high-energy, passionate individual with experience working with and mining data to discover trends and derive business important insights.
+
+In this role, you will be responsible for creating standard reports as well as custom analysis, as required, based on changing business conditions within a therapeutic area or country. You will need a good understanding of the Life Sciences industry on how field sales, medical, and marketing work. You will help create and work with benchmarks to make the industry promotional and scientific exchange efforts more productive, which will impact patient treatment and outcomes. You need to be able to think Big Data with a global data set, but also Small Data and be good with details as trending can be very localized.
+What You'll Do
+• Collaborate closely with Product Management, Data Scientists, and Data Engineers to build the data platform
+• Create standard reports and run reports for various stakeholders
+• Investigate data and propose a business rationale for behavior based on an understanding of the Life Sciences industry
+• Build and maintain reference data groupings such as Therapeutic Areas, indications, etc.
+• Derive meaningful and impactful insights from the data, and communicate possibilities unearthed through data.
+• Have a good intuition on when data cannot be taken at face value, and build context and meaning around metrics.
+• Proactively suggest new ideas and ways of operating
+• Educate others and be a champion of how to use this data set
+Requirements
+• Excellent communication skills; written, verbal and formal presentation
+• BA/BS degree in Computer Science, Engineering, Math, Biology, Chemistry, Bio-tech, Life Sciences, or related technical field
+• 2+ years of hands-on data analysis experience
+• 2+ years of experience with enterprise software
+• Energized by working through complex problems and love working with data
+• Experience with commercial aspects of the Life Sciences industry
+Nice to Have
+• Experience with Veeva CRM
+• Worked on global life science programmes
+• Research exposure
+Perks & Benefits
+• Conveniently located in downtown Toronto
+• Snacks, beverages, and weekly lunches from local restaurants
+• Team events and rec league sports teams
+• Allocations for continuous learning & development
+• Health & wellness programs
+• Weekly yoga classes
+• Ping pong and other games
+
+#LI-Remote
+#BI-Remote
+
+Veeva’s headquarters is located in the San Francisco Bay Area with offices in more than 15 countries around the world.
+
+Veeva is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, sex, sexual orientation, gender identity or expression, religion, national origin or ancestry, age, disability, marital status, pregnancy, protected veteran status, protected genetic information, political affiliation, or any other characteristics protected by local laws, regulations, or ordinances. If you need assistance or accommodation due to a disability or special need when applying for a role or in our recruitment process, please contact us at talent_accommodations@veeva.com.",['AWS'],Toronto,CA,2023-07-18,Computer Services
+10,OkZtzyK0rxUAAAAAAAAAAA==,,FULLTIME,"Software Engineer, Full Stack – Monetization and Release Management at Samsara",https://www.remotejobswebo.com/job/software-engineer-full-stack-monetization-and-release-management-at-samsara/,"Who we are
+
+Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.
+
+Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, Equipment Monitoring, and Site Visibility. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term.
+
+Recent awards we’ve won include:
+
+Great Place To Work Certified™ 2023
+
+Best Place to Work by Built In 2023
+
+Financial Times The Americas’ Fastest Growing Companies 2023
+
+Deloitte Fast 500 Companies
+
+IoT Analytics Company of the Year in 2022’s IoT Breakthrough Winners
+
+We see a profound opportunity for data to improve the safety, efficiency, and sustainability of operations, and hope you consider joining us on this exciting journey.
+
+About the role:
+
+The Monetization & Release Management team is responsible for how features are rolled out at Samsara. The team’s customers include product managers rolling out features based on various targeting attributes and license access, Samsara’s customers opting into betas and other developers rolling out features or configuring their systems. With visible services used by every Samsara user, this team and role has a large impact area and exciting opportunities to work across stacks and accelerate Samsara’s growth by building for self-serve.
+
+You should apply if:
+• You want to impact the industries that run our world: The software, firmware, and hardware you build will result in real-world impact—helping to keep the lights on, get food into grocery stores, and most importantly, ensure workers return home safely.
+• You want to build for scale: With over 2.3 million IoT devices deployed to our global customers, you will work on a range of new and mature technologies driving scalable innovation for customers across industries driving the world’s physical operations.
+• You are a life-long learner: We have ambitious goals. Every Samsarian has a growth mindset as we work with a wide range of technologies, challenges, and customers that push us to learn on the go.
+• You believe customers are more than a number: Samsara engineers enjoy a rare closeness to the end user and you will have the opportunity to participate in customer interviews, collaborate with customer success and product managers, and use metrics to ensure our work is translating into better customer outcomes.
+• You are a team player: Working on our Samsara Engineering teams requires a mix of independent effort and collaboration. Motivated by our mission, we’re all racing toward our connected operations vision, and we intend to win—together.
+
+Click here to learn about what we value at Samsara.
+
+In this role, you will:
+• Design and develop systems to manage features for Samsara’s customers
+• Build deep integrations into Samsara’s other systems to enable users to self-serve product expansion
+• Work across stack to ensure features are represented at each level (frontend, backend services, databases)
+• Work closely with our product partners to understand the needs of our end-customers and how to ensure a delightful customer experience
+• Contribute to our wonderful culture and maintain an inclusive, collaborative and supportive work environment where all Samsara employees can grow and thrive
+• Champion, role model, and embed Samsara’s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices
+
+Minimum requirements for the role:
+• 1+ years of industry experience in software development
+• Bachelor’s Degree in Computer Science/Engineering or equivalent experience
+• Good programming/coding and design fundamentals
+• A desire to build customer-facing applications with great user experiences
+
+An ideal candidate also has:
+• Familiarity with Go, JavaScript, TypeScript or similar programming languages
+• An eagerness to build good working relationships and collaborate with your team of engineers
+• A desire to solve complex problems in an ambiguous space along with the ability to iterate upon and improve existing systems
+
+Samsara’s Compensation Philosophy: Samsara’s compensation program is designed to deliver total compensation (based on role, level, and geography) that is above market. We do this through our base salary + bonus/variable + restricted stock unit awards (RSUs). A new hire RSU award is awarded at the time of hire, and additional RSU refresh grants may be awarded annually.
+
+We pay for performance, and top performers are eligible to receive above target equity refresh awards which allow employees to achieve higher market positioning.
+
+The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience.
+
+$102,340—$150,500 USD
+
+At Samsara, we welcome everyone regardless of their background, race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, etc. We depend on the unique approaches of our team members to help us solve complex problems. We are committed to increasing diversity across our team and ensuring that Samsara is a place where people from all backgrounds can make an impact.
+
+Accommodations
+
+Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process.
+
+Benefits
+
+Full time employees receive an above market total compensation package along with employee-led remote and flexible working, health benefits, Samsara for Good charity fund, and much, much more. Take a look at our Benefits site to learn more.
+
+Flexible Working
+
+At Samsara, we have adopted a flexible way of working, enabling teams and individuals to do their best work, regardless of where they’re based. We value in-person collaboration and know a change of scenery and quiet space to work is welcomed from time to time, but also appreciate that the world of work has changed. Our offices remain open for those who prefer to collaborate or work in-office, but we also encourage fully remote applicants. As most roles are not required to be in the office, we are able to hire remotely where Samsara has an established presence. If a role is required to be in a certain location and candidates do not have work authorization for that location, Samsara will conduct an immigration assessment. If the role is not required to be in a specific location, Samsara will move forward with the remote location that works best for the business. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company.
+
+Please note: Samsara does not accept agency resumes and is not responsible for any fees related to unsolicited resumes. Please do not forward resumes to Samsara employees.",[],,US,2023-07-18,
+11,BYvgdy59Bc0AAAAAAAAAAA==,,FULLTIME,DevOps Engineer,https://www.kickresume.com/pyjama-jobs/job/dceb0970-c55e-4b18-8c9c-27ef369e2e7b/,"• Participate in Agile planning to organize your priorities and results are in alignment with the team’s sprints and roadmap.
+• Collaborate closely with teammates and internal stakeholders to ensure a stable platform.
+• Build automations necessary to support continuous development.
+• Integrate automated tests in lifecycle and build process.
+• Follow and improve security procedures and ensure all environment changes continue to protect our customers’ data.
+• Set your team up for success by writing thorough documentation.
+• Design, develop, and maintain the CI/CD pipeline for your assigned team.
+• Enable parallel development without compromising stability or security of the product.
+• Manage the integration and branching of code.
+• Ensure the proper deployment of the solution to our customers in the Cloud.
+• Manage network and security resources to meet requirements.
+• Ensure SLAs for defined products are met.
+• Security, availability, resilience, and failover targets are met.
+• Maintain system health by defining, deploying, and configuring required logging, monitoring and alerting functionality.
+• Respond to alerts and notifications for at-risk or failed performance.
+• Research and recommend improvements to the team’s tools and processes to optimize the systems and embed a DevOps culture.
+
+What makes you a great fit:
+• Alignment with our Core Values
+• 2+ years of experience supporting engineering teams in a DevOps Engineering, Infrastructure or similar role.
+• Knowledge of Java
+• Hands on experience with AWS or a fast learner
+• Big fan of automation.
+• Understands microservices architecture that utilizes both REST APIs and event-based architecture from a security perspective (for example, understanding the vulnerabilities of HTTP Protocol)
+• Worked on a live, self-healing product relying on distributed systems with multiple nodes across multiple AWS data centers using tools like EKS, ElasticSearch, RabbitMQ, Karpenter
+• Top-notch team communicator, who enjoys sharing knowledge with peers.
+• Fluent in Dutch and English, verbally and written.
+• Able to work 40 hours a week and is authorized to work in the Netherlands
+• We’ve got a coworking space in Delft where our team gets together at least once a week to collaborate in person.","['AWS', 'Ci/Cd']",,,2023-07-17,
