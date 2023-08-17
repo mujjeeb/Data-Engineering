@@ -1,0 +1,23 @@
+[2023-08-16T19:57:25.102+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-10T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:25.110+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-10T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:25.111+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:25.112+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 6
+[2023-08-16T19:57:25.113+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:25.122+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-10 00:00:00+00:00
+[2023-08-16T19:57:25.128+0000] {standard_task_runner.py:55} INFO - Started process 1833 to run task
+[2023-08-16T19:57:25.134+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'scheduled__2023-08-10T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmp5kz6invx']
+[2023-08-16T19:57:25.135+0000] {standard_task_runner.py:83} INFO - Job 13: Subtask get_data_from_api
+[2023-08-16T19:57:25.197+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-10T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T19:57:25.255+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-10T00:00:00+00:00
+[2023-08-16T19:57:26.579+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'female', 'name': {'title': 'Mrs', 'first': 'Isabella', 'last': 'Jensen'}, 'location': {'street': {'number': 7517, 'name': 'Vestergade'}, 'city': 'Nimtofte', 'state': 'Danmark', 'country': 'Denmark', 'postcode': 31373, 'coordinates': {'latitude': '-41.8667', 'longitude': '113.6347'}, 'timezone': {'offset': '+5:30', 'description': 'Bombay, Calcutta, Madras, New Delhi'}}, 'email': 'isabella.jensen@example.com', 'login': {'uuid': '63abce82-3255-4d9b-9da4-7d2da7fb1fdd', 'username': 'crazykoala864', 'password': '***', 'salt': 'jwv2JS12', 'md5': '3daeb89b787884bb7ec31a115a49407e', 'sha1': '736438e54ece571d9e4e7e6866a77d3baf271e19', 'sha256': '610e9763bdde8757ec45e82ccb3ac426290fced65ee442ba4bae6b9c14ed0622'}, 'dob': {'date': '1952-06-10T14:35:10.475Z', 'age': 71}, 'registered': {'date': '2019-04-12T14:52:53.697Z', 'age': 4}, 'phone': '49709883', 'cell': '11591518', 'id': {'name': 'CPR', 'value': '100652-8501'}, 'picture': {'large': 'https://randomuser.me/api/portraits/women/65.jpg', 'medium': 'https://randomuser.me/api/portraits/med/women/65.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/women/65.jpg'}, 'nat': 'DK'}], 'info': {'seed': '8f759ec852fce128', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T19:57:26.607+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230810T000000, start_date=20230816T195725, end_date=20230816T195726
+[2023-08-16T19:57:26.670+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T19:57:26.700+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

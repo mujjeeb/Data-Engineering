@@ -1,0 +1,47 @@
+[2023-08-16T20:02:11.678+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-06T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:11.687+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-06T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:11.688+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:11.690+0000] {taskinstance.py:1284} INFO - Starting attempt 3 of 6
+[2023-08-16T20:02:11.691+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:11.702+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_relevant_credentials> on 2023-08-06 00:00:00+00:00
+[2023-08-16T20:02:11.709+0000] {standard_task_runner.py:55} INFO - Started process 2206 to run task
+[2023-08-16T20:02:11.713+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'extract_relevant_credentials', 'scheduled__2023-08-06T00:00:00+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmpgt4tes1r']
+[2023-08-16T20:02:11.715+0000] {standard_task_runner.py:83} INFO - Job 32: Subtask extract_relevant_credentials
+[2023-08-16T20:02:11.791+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-06T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T20:02:11.910+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=extract_relevant_credentials
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-06T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-06T00:00:00+00:00
+[2023-08-16T20:02:11.914+0000] {python.py:177} INFO - Done. Returned value was: (['کیانا', 'Howard', 'Leo', 'Teresa', 'Faith', 'Snorre', 'Olivier', 'Kimberly', 'Reyansh', 'Dylan'], ['کوتی', 'Wagner', 'Ranta', 'Cruz', 'Morris', 'Aalberg', 'Sales', 'Lopez', 'Kamath', 'Ross'], ['female', 'male', 'male', 'female', 'female', 'male', 'male', 'female', 'male', 'male'], ['khyn.khwty@example.com', 'howard.wagner@example.com', 'leo.ranta@example.com', 'teresa.cruz@example.com', 'faith.morris@example.com', 'snorre.aalberg@example.com', 'olivier.sales@example.com', 'kimberly.lopez@example.com', 'reyansh.kamath@example.com', 'dylan.ross@example.com'], [datetime.date(1960, 8, 13), datetime.date(1992, 7, 6), datetime.date(1993, 8, 1), datetime.date(1992, 6, 4), datetime.date(1974, 9, 15), datetime.date(1994, 9, 23), datetime.date(1973, 7, 7), datetime.date(1993, 10, 18), datetime.date(1947, 6, 8), datetime.date(1972, 12, 14)], ['Iran', 'Australia', 'Finland', 'Spain', 'United Kingdom', 'Norway', 'Brazil', 'Ireland', 'India', 'Canada'], ['House 1751, نوفل لوشاتو', 'House 8287, Saddle Dr', 'House 3724, Pirkankatu', 'House 8586, Calle del Arenal', 'House 5970, The Green', 'House 8452, Væringkleiva', 'House 2575, Rua Alagoas ', 'House 5610, Ormond Quay', 'House 4825, Commercial St', 'House 5618, Grand Ave'], ['نیشابور', 'Warrnambool', 'Uusikaupunki', 'Cuenca', 'Stirling', 'Nodeland', 'Ponta Grossa', 'Arklow', 'Jehanabad', 'Sutton'], ['قم', 'Western Australia', 'Southern Savonia', 'Navarra', 'Buckinghamshire', 'Trøndelag', 'Roraima', 'Laois', 'Manipur', 'Nova Scotia'], [25595, 6127, 44867, 13850, 'AF0A 6WT', '6656', 61209, 86900, 36823, 'R7Q 1Z8'], ['028-99289076', '04-3675-6484', '02-387-660', '910-888-858', '015394 15503', '63786540', '(46) 2036-5644', '021-789-9783', '9348227165', 'K13 A60-4983'], ['0973-246-4815', '0406-336-629', '045-071-85-42', '691-316-059', '07058 286043', '44916318', '(82) 4157-4147', '081-008-6505', '8709480624', 'V65 M96-1604'])
+[2023-08-16T20:02:11.924+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2301, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 240, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 627, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/local/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 176, in encode
+    return super().encode(o)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 153, in default
+    CLASSNAME: o.__module__ + "." + o.__class__.__qualname__,
+AttributeError: 'datetime.date' object has no attribute '__module__'
+[2023-08-16T20:02:11.943+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=random_user_v1, task_id=extract_relevant_credentials, execution_date=20230806T000000, start_date=20230816T200211, end_date=20230816T200211
+[2023-08-16T20:02:11.981+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 32 for task extract_relevant_credentials ('datetime.date' object has no attribute '__module__'; 2206)
+[2023-08-16T20:02:12.045+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-08-16T20:02:12.109+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

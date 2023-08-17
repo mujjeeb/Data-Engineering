@@ -1,0 +1,47 @@
+[2023-08-16T20:07:17.846+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-16T20:07:17.855+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-16T20:07:17.856+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:07:17.857+0000] {taskinstance.py:1284} INFO - Starting attempt 3 of 6
+[2023-08-16T20:07:17.858+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:07:17.869+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_relevant_credentials> on 2023-08-14 00:00:00+00:00
+[2023-08-16T20:07:17.882+0000] {standard_task_runner.py:55} INFO - Started process 2582 to run task
+[2023-08-16T20:07:17.888+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'extract_relevant_credentials', 'scheduled__2023-08-14T00:00:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmp0tb7rqg4']
+[2023-08-16T20:07:17.889+0000] {standard_task_runner.py:83} INFO - Job 46: Subtask extract_relevant_credentials
+[2023-08-16T20:07:17.955+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-14T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T20:07:18.038+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=extract_relevant_credentials
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-14T00:00:00+00:00
+[2023-08-16T20:07:18.040+0000] {python.py:177} INFO - Done. Returned value was: (['Vilma', 'Germán', 'Natã', 'Kaya', 'Linnea'], ['Nevala', 'Arce', 'Freitas', 'Kavaklıoğlu', 'Kujala'], ['female', 'male', 'male', 'male', 'female'], ['vilma.nevala@example.com', 'german.arce@example.com', 'nata.freitas@example.com', 'kaya.kavaklioglu@example.com', 'linnea.kujala@example.com'], [datetime.date(1989, 10, 11), datetime.date(1967, 9, 16), datetime.date(1962, 7, 4), datetime.date(1956, 7, 26), datetime.date(1959, 12, 24)], ['Finland', 'Mexico', 'Brazil', 'Turkey', 'Finland'], ['House 6633, Korkeavuorenkatu', 'House 6654, Privada Italia', 'House 7612, Rua Rio de Janeiro ', 'House 4395, Maçka Cd', 'House 5365, Tehtaankatu'], ['Vårdö', 'San Felipe Orizatlán', 'Varginha', 'Erzurum', 'Petäjävesi'], ['Tavastia Proper', 'Michoacan', 'Amapá', 'Karaman', 'Ostrobothnia'], [49099, 20634, 55351, 45218, 82690], ['09-891-452', '(610) 920 5418', '(18) 3799-6168', '(649)-597-6049', '06-525-085'], ['040-169-81-86', '(630) 581 4954', '(21) 7417-9982', '(651)-534-9381', '042-151-12-89'])
+[2023-08-16T20:07:18.051+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2301, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 240, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 627, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/local/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 176, in encode
+    return super().encode(o)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 153, in default
+    CLASSNAME: o.__module__ + "." + o.__class__.__qualname__,
+AttributeError: 'datetime.date' object has no attribute '__module__'
+[2023-08-16T20:07:18.062+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=random_user_v1, task_id=extract_relevant_credentials, execution_date=20230814T000000, start_date=20230816T200717, end_date=20230816T200718
+[2023-08-16T20:07:18.070+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 46 for task extract_relevant_credentials ('datetime.date' object has no attribute '__module__'; 2582)
+[2023-08-16T20:07:18.099+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-08-16T20:07:18.121+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

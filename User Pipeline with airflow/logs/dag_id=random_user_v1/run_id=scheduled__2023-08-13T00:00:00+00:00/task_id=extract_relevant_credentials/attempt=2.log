@@ -1,0 +1,47 @@
+[2023-08-16T20:04:20.879+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-13T00:00:00+00:00 [queued]>
+[2023-08-16T20:04:20.887+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-13T00:00:00+00:00 [queued]>
+[2023-08-16T20:04:20.888+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:04:20.889+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 6
+[2023-08-16T20:04:20.890+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:04:20.900+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_relevant_credentials> on 2023-08-13 00:00:00+00:00
+[2023-08-16T20:04:20.912+0000] {standard_task_runner.py:55} INFO - Started process 2374 to run task
+[2023-08-16T20:04:20.918+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'extract_relevant_credentials', 'scheduled__2023-08-13T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmpdvlup7_k']
+[2023-08-16T20:04:20.920+0000] {standard_task_runner.py:83} INFO - Job 38: Subtask extract_relevant_credentials
+[2023-08-16T20:04:20.994+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-13T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T20:04:21.112+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=extract_relevant_credentials
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-13T00:00:00+00:00
+[2023-08-16T20:04:21.115+0000] {python.py:177} INFO - Done. Returned value was: (['سینا', 'Melike', 'Petrus', 'Christoffer', 'Lauritz', 'Yustina', 'Angelina', 'Ladomira', 'Patricia', 'Anne'], ['كامياران', 'Bakırcıoğlu', 'Van Aaken', 'Hansen', 'Gram', 'Savko', 'Babić', 'Lizhechka', 'Moreno', 'Clark'], ['male', 'female', 'male', 'male', 'male', 'female', 'female', 'female', 'female', 'female'], ['syn.kmyrn@example.com', 'melike.bakircioglu@example.com', 'petrus.vanaaken@example.com', 'christoffer.hansen@example.com', 'lauritz.gram@example.com', 'yustina.savko@example.com', 'angelina.babic@example.com', 'ladomira.lizhechka@example.com', 'patricia.moreno@example.com', 'anne.clark@example.com'], [datetime.date(1964, 10, 31), datetime.date(1945, 4, 10), datetime.date(1970, 11, 1), datetime.date(1969, 12, 14), datetime.date(1952, 9, 16), datetime.date(1987, 7, 2), datetime.date(1951, 1, 29), datetime.date(1989, 2, 11), datetime.date(1984, 7, 17), datetime.date(1978, 2, 20)], ['Iran', 'Turkey', 'Netherlands', 'Denmark', 'Norway', 'Ukraine', 'Serbia', 'Ukraine', 'Spain', 'Australia'], ['House 8634, میدان انقلاب', 'House 9243, Mevlana Cd', 'House 5531, Dieperpoelkade', 'House 9385, Grundtvigsvej', 'House 7628, Europarådets plass', 'House 946, Prazka', 'House 7581, Stanislavskog', 'House 2749, Groznenska', 'House 7265, Calle de Arganzuela', 'House 8831, W Sherman Dr'], ['آمل', 'Mardin', 'Werkendam', 'Vipperød', 'Åmli', 'Ananyiv', 'Sečanj', 'Busk', 'Arrecife', 'Nowra'], ['گلستان', 'Ordu', 'Gelderland', 'Hovedstaden', 'Rogaland', 'Rivnenska', 'Bor', 'Lvivska', 'País Vasco', 'Victoria'], [39485, 22384, '3466 EX', 64003, '5470', 54533, 41692, 81096, 22639, 6499], ['044-71873942', '(493)-097-3437', '(036) 4498583', '81137247', '34588224', '(066) X96-2490', '027-5800-076', '(099) Z58-4069', '907-454-373', '03-1784-3475'], ['0986-454-4056', '(732)-329-0873', '(06) 27143503', '27477105', '44228311', '(096) T80-1541', '060-3164-064', '(097) U94-7476', '647-968-747', '0414-117-142'])
+[2023-08-16T20:04:21.125+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2301, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 240, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 627, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/local/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 176, in encode
+    return super().encode(o)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 153, in default
+    CLASSNAME: o.__module__ + "." + o.__class__.__qualname__,
+AttributeError: 'datetime.date' object has no attribute '__module__'
+[2023-08-16T20:04:21.138+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=random_user_v1, task_id=extract_relevant_credentials, execution_date=20230813T000000, start_date=20230816T200420, end_date=20230816T200421
+[2023-08-16T20:04:21.152+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 38 for task extract_relevant_credentials ('datetime.date' object has no attribute '__module__'; 2374)
+[2023-08-16T20:04:21.170+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-08-16T20:04:21.192+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

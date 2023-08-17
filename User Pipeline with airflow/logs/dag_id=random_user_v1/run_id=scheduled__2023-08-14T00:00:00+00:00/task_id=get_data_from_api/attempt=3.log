@@ -1,0 +1,23 @@
+[2023-08-16T20:02:12.138+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:12.167+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:12.169+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:12.170+0000] {taskinstance.py:1284} INFO - Starting attempt 3 of 6
+[2023-08-16T20:02:12.171+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:12.197+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-14 00:00:00+00:00
+[2023-08-16T20:02:12.205+0000] {standard_task_runner.py:55} INFO - Started process 2207 to run task
+[2023-08-16T20:02:12.215+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'scheduled__2023-08-14T00:00:00+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmpg63bu_6t']
+[2023-08-16T20:02:12.217+0000] {standard_task_runner.py:83} INFO - Job 34: Subtask get_data_from_api
+[2023-08-16T20:02:12.318+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-14T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T20:02:12.429+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-14T00:00:00+00:00
+[2023-08-16T20:02:13.986+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'male', 'name': {'title': 'Mr', 'first': 'Oscar', 'last': 'Romero'}, 'location': {'street': {'number': 4952, 'name': 'Depaul Dr'}, 'city': 'Baltimore', 'state': 'Texas', 'country': 'United States', 'postcode': 97889, 'coordinates': {'latitude': '81.7462', 'longitude': '-144.5657'}, 'timezone': {'offset': '-9:00', 'description': 'Alaska'}}, 'email': 'oscar.romero@example.com', 'login': {'uuid': 'bc2721df-e632-45f0-87d0-5ba923523533', 'username': 'ticklishbird398', 'password': '***', 'salt': '4xmjw7bc', 'md5': '83781aeea9d53c3b417dc0bdc068d8fe', 'sha1': '2a565e95a1dbfbb09a4496fa97f67a6f03ec2089', 'sha256': 'b9e53b5fc37ef35bd6c419f6aa3fc97148074a2b29b8622a5e2a3be1eee81178'}, 'dob': {'date': '1985-12-30T07:08:28.285Z', 'age': 37}, 'registered': {'date': '2015-09-16T00:59:14.429Z', 'age': 7}, 'phone': '(313) 323-2220', 'cell': '(742) 723-6613', 'id': {'name': 'SSN', 'value': '226-13-4327'}, 'picture': {'large': 'https://randomuser.me/api/portraits/men/59.jpg', 'medium': 'https://randomuser.me/api/portraits/med/men/59.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/59.jpg'}, 'nat': 'US'}], 'info': {'seed': 'e5707c56ec53e3ff', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T20:02:14.031+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230814T000000, start_date=20230816T200212, end_date=20230816T200214
+[2023-08-16T20:02:14.087+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T20:02:14.113+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

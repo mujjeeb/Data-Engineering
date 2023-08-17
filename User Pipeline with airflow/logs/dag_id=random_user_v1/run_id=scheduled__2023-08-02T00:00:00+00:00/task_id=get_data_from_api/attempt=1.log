@@ -1,0 +1,23 @@
+[2023-08-16T19:57:19.402+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:19.411+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:19.412+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:19.413+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 6
+[2023-08-16T19:57:19.414+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:19.425+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-02 00:00:00+00:00
+[2023-08-16T19:57:19.433+0000] {standard_task_runner.py:55} INFO - Started process 1815 to run task
+[2023-08-16T19:57:19.439+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'scheduled__2023-08-02T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmphjsfq7tk']
+[2023-08-16T19:57:19.441+0000] {standard_task_runner.py:83} INFO - Job 11: Subtask get_data_from_api
+[2023-08-16T19:57:19.511+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-02T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T19:57:19.579+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-02T00:00:00+00:00
+[2023-08-16T19:57:21.714+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'male', 'name': {'title': 'Mr', 'first': 'Konsta', 'last': 'Kokko'}, 'location': {'street': {'number': 1146, 'name': 'Pirkankatu'}, 'city': 'Nastola', 'state': 'Kymenlaakso', 'country': 'Finland', 'postcode': 24852, 'coordinates': {'latitude': '-24.3761', 'longitude': '-62.7548'}, 'timezone': {'offset': '-6:00', 'description': 'Central Time (US & Canada), Mexico City'}}, 'email': 'konsta.kokko@example.com', 'login': {'uuid': '75319832-10eb-474a-84dd-f3000e56f445', 'username': 'ticklishswan953', 'password': '***', 'salt': 'fb4RErNF', 'md5': '410c4e536f63336f1deadc5331e41f54', 'sha1': '67f6acd60a6f4ca253b3b96ec7e3f0461b27c901', 'sha256': '199b51f74691934d51888fcd28ef88d85ac27454c7acd42f5486a7767844d525'}, 'dob': {'date': '1956-12-08T21:28:35.613Z', 'age': 66}, 'registered': {'date': '2003-06-05T12:35:52.984Z', 'age': 20}, 'phone': '02-934-922', 'cell': '043-109-22-59', 'id': {'name': 'HETU', 'value': 'NaNNA557undefined'}, 'picture': {'large': 'https://randomuser.me/api/portraits/men/4.jpg', 'medium': 'https://randomuser.me/api/portraits/med/men/4.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/4.jpg'}, 'nat': 'FI'}], 'info': {'seed': '041eb6a81fa3b5d8', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T19:57:21.747+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230802T000000, start_date=20230816T195719, end_date=20230816T195721
+[2023-08-16T19:57:21.771+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T19:57:21.796+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

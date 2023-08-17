@@ -1,0 +1,23 @@
+[2023-08-16T19:57:23.794+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-06T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:23.801+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-06T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:23.802+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:23.804+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 6
+[2023-08-16T19:57:23.805+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:23.814+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-06 00:00:00+00:00
+[2023-08-16T19:57:23.821+0000] {standard_task_runner.py:55} INFO - Started process 1832 to run task
+[2023-08-16T19:57:23.825+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'scheduled__2023-08-06T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmpv_7u5gaa']
+[2023-08-16T19:57:23.826+0000] {standard_task_runner.py:83} INFO - Job 12: Subtask get_data_from_api
+[2023-08-16T19:57:23.896+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-06T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T19:57:23.951+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-06T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-06T00:00:00+00:00
+[2023-08-16T19:57:25.351+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'male', 'name': {'title': 'Mr', 'first': 'Eren', 'last': 'Elmastaşoğlu'}, 'location': {'street': {'number': 1355, 'name': 'Kushimoto Sk'}, 'city': 'Amasya', 'state': 'Rize', 'country': 'Turkey', 'postcode': 77405, 'coordinates': {'latitude': '71.3278', 'longitude': '-171.5230'}, 'timezone': {'offset': '-11:00', 'description': 'Midway Island, Samoa'}}, 'email': 'eren.elmastasoglu@example.com', 'login': {'uuid': '550230ab-8c5b-42ac-80f3-5f93aa9e8986', 'username': 'yellowdog427', 'password': '***', 'salt': 'HXuRiNWX', 'md5': '1d94e57b91740767ec373be9db01e049', 'sha1': '9d5a61a2ce51ef9f0287c30831b049969fd2cebf', 'sha256': 'f020a78cb3a01ae209e290bdff7de20166673c9e5b2a22acaa636919d37d52c6'}, 'dob': {'date': '1998-11-21T04:07:58.720Z', 'age': 24}, 'registered': {'date': '2014-02-20T00:29:11.047Z', 'age': 9}, 'phone': '(665)-856-5397', 'cell': '(010)-505-2521', 'id': {'name': '', 'value': None}, 'picture': {'large': 'https://randomuser.me/api/portraits/men/24.jpg', 'medium': 'https://randomuser.me/api/portraits/med/men/24.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/24.jpg'}, 'nat': 'TR'}], 'info': {'seed': 'cd27516166f802b6', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T19:57:25.375+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230806T000000, start_date=20230816T195723, end_date=20230816T195725
+[2023-08-16T19:57:25.428+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T19:57:25.458+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

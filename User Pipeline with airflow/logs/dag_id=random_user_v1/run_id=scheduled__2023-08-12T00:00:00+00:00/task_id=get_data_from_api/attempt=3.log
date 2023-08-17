@@ -1,0 +1,23 @@
+[2023-08-16T20:02:01.598+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-12T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:01.604+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-12T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:01.605+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:01.606+0000] {taskinstance.py:1284} INFO - Starting attempt 3 of 6
+[2023-08-16T20:02:01.607+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:01.615+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-12 00:00:00+00:00
+[2023-08-16T20:02:01.621+0000] {standard_task_runner.py:55} INFO - Started process 2182 to run task
+[2023-08-16T20:02:01.625+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'scheduled__2023-08-12T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmpv9224ups']
+[2023-08-16T20:02:01.627+0000] {standard_task_runner.py:83} INFO - Job 28: Subtask get_data_from_api
+[2023-08-16T20:02:01.686+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-12T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T20:02:01.737+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-12T00:00:00+00:00
+[2023-08-16T20:02:02.487+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'female', 'name': {'title': 'Ms', 'first': 'Bernabé', 'last': 'Arguello'}, 'location': {'street': {'number': 2527, 'name': 'Circuito Micronesia'}, 'city': 'Villa Victoria', 'state': 'Nuevo Leon', 'country': 'Mexico', 'postcode': 73291, 'coordinates': {'latitude': '21.6526', 'longitude': '56.7644'}, 'timezone': {'offset': '+8:00', 'description': 'Beijing, Perth, Singapore, Hong Kong'}}, 'email': 'bernabe.arguello@example.com', 'login': {'uuid': '20ed45f9-b32c-4ab7-b4b8-ddd67e5a03c2', 'username': 'lazysnake866', 'password': '***', 'salt': 'pjVPSClq', 'md5': '6d2fbfc732b9cb3b743a5ac7a0a2c666', 'sha1': '715b0745c7e6a13e1759cafccc4ba73433566a5c', 'sha256': '39d00ccf26338788baa3c7f0b01eb7f41ff984f972b539975843ac90fb7a0830'}, 'dob': {'date': '1993-08-17T14:24:30.192Z', 'age': 29}, 'registered': {'date': '2010-04-13T07:00:00.254Z', 'age': 13}, 'phone': '(683) 601 8120', 'cell': '(610) 028 5947', 'id': {'name': 'NSS', 'value': '41 43 35 4961 1'}, 'picture': {'large': 'https://randomuser.me/api/portraits/women/42.jpg', 'medium': 'https://randomuser.me/api/portraits/med/women/42.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/women/42.jpg'}, 'nat': 'MX'}], 'info': {'seed': 'b3d2c02bab46d132', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T20:02:02.513+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230812T000000, start_date=20230816T200201, end_date=20230816T200202
+[2023-08-16T20:02:02.568+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T20:02:02.602+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

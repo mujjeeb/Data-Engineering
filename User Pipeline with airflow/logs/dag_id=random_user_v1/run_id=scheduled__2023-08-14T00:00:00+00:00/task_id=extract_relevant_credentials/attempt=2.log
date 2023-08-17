@@ -1,0 +1,47 @@
+[2023-08-16T20:04:32.869+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-16T20:04:32.877+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-16T20:04:32.878+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:04:32.879+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 6
+[2023-08-16T20:04:32.879+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:04:32.888+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_relevant_credentials> on 2023-08-14 00:00:00+00:00
+[2023-08-16T20:04:32.893+0000] {standard_task_runner.py:55} INFO - Started process 2394 to run task
+[2023-08-16T20:04:32.899+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'extract_relevant_credentials', 'scheduled__2023-08-14T00:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmp8hb8_hs9']
+[2023-08-16T20:04:32.900+0000] {standard_task_runner.py:83} INFO - Job 44: Subtask extract_relevant_credentials
+[2023-08-16T20:04:32.961+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.extract_relevant_credentials scheduled__2023-08-14T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T20:04:33.070+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=extract_relevant_credentials
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-14T00:00:00+00:00
+[2023-08-16T20:04:33.075+0000] {python.py:177} INFO - Done. Returned value was: (['Dewika', 'Valeria', 'Pavitra', 'Selena', 'Maryse', 'Raymond', 'Nils', 'Maria', 'Dimitrije', 'Rodoslava'], ['Visschedijk', 'Rakić', 'Pai', 'Gjessing', 'Blomsma', 'Fletcher', 'Riviere', 'Walker', 'Kralj', 'Zharko'], ['female', 'female', 'female', 'female', 'female', 'male', 'male', 'female', 'male', 'female'], ['dewika.visschedijk@example.com', 'valeria.rakic@example.com', 'pavitra.pai@example.com', 'selena.gjessing@example.com', 'maryse.blomsma@example.com', 'raymond.fletcher@example.com', 'nils.riviere@example.com', 'maria.walker@example.com', 'dimitrije.kralj@example.com', 'rodoslava.zharko@example.com'], [datetime.date(1985, 2, 26), datetime.date(1958, 11, 21), datetime.date(1996, 2, 1), datetime.date(2000, 6, 9), datetime.date(1981, 4, 9), datetime.date(1949, 5, 17), datetime.date(1949, 8, 17), datetime.date(1959, 3, 9), datetime.date(1946, 2, 22), datetime.date(1988, 8, 3)], ['Netherlands', 'Serbia', 'India', 'Norway', 'Netherlands', 'Australia', 'France', 'New Zealand', 'Serbia', 'Ukraine'], ['House 3330, Hogekampweg', 'House 5581, Vladanova', 'House 9088, Santhekatte', 'House 2669, Sørengkaia', 'House 3792, Hoge Ham', 'House 9176, Hunters Creek Dr', "House 5710, Rue de L'Abbé-Migne", 'House 3641, Manchester Street', 'House 6765, Pijaca Železnik', 'House 6734, Shirshova'], ['Wapserveen', 'Bačka Palanka', 'Sultan Pur Majra', 'Grong', 'Spanbroek', 'Queanbeyan', 'Fort-de-France', 'Dunedin', 'Kuršumlija', 'Liman'], ['Flevoland', 'Pomoravlje', 'Madhya Pradesh', 'Description', 'Noord-Brabant', 'Victoria', 'Hauts-de-Seine', 'Manawatu-Wanganui', 'Zaječar', 'Donecka'], ['2280 YE', 99360, 82842, '3006', '9431 JC', 2825, 92772, 39774, 75707, 57361], ['(0651) 067110', '015-2542-993', '9208212310', '36682411', '(0985) 100517', '07-5573-0570', '04-46-46-55-81', '(889)-388-1069', '029-1449-630', '(066) Y89-5226'], ['(06) 41230365', '065-9270-023', '7827824759', '91680209', '(06) 56689531', '0412-658-564', '06-15-29-33-38', '(395)-323-0284', '062-4978-962', '(068) K20-9405'])
+[2023-08-16T20:04:33.086+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2301, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 240, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 627, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/local/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 176, in encode
+    return super().encode(o)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/json.py", line 153, in default
+    CLASSNAME: o.__module__ + "." + o.__class__.__qualname__,
+AttributeError: 'datetime.date' object has no attribute '__module__'
+[2023-08-16T20:04:33.098+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=random_user_v1, task_id=extract_relevant_credentials, execution_date=20230814T000000, start_date=20230816T200432, end_date=20230816T200433
+[2023-08-16T20:04:33.107+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 44 for task extract_relevant_credentials ('datetime.date' object has no attribute '__module__'; 2394)
+[2023-08-16T20:04:33.151+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-08-16T20:04:33.174+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

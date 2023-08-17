@@ -1,0 +1,23 @@
+[2023-08-16T20:02:01.209+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-01T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:01.217+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-01T00:00:00+00:00 [queued]>
+[2023-08-16T20:02:01.218+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:01.219+0000] {taskinstance.py:1284} INFO - Starting attempt 3 of 6
+[2023-08-16T20:02:01.220+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T20:02:01.229+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-01 00:00:00+00:00
+[2023-08-16T20:02:01.235+0000] {standard_task_runner.py:55} INFO - Started process 2181 to run task
+[2023-08-16T20:02:01.240+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'scheduled__2023-08-01T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmp4x8i967l']
+[2023-08-16T20:02:01.241+0000] {standard_task_runner.py:83} INFO - Job 27: Subtask get_data_from_api
+[2023-08-16T20:02:01.307+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-01T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T20:02:01.398+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-01T00:00:00+00:00
+[2023-08-16T20:02:02.073+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'male', 'name': {'title': 'Mr', 'first': 'Slavoljub', 'last': 'Anđelković'}, 'location': {'street': {'number': 8130, 'name': 'Đorđa Radaka'}, 'city': 'Ćićevac', 'state': 'Srem', 'country': 'Serbia', 'postcode': 58989, 'coordinates': {'latitude': '59.0345', 'longitude': '-60.3470'}, 'timezone': {'offset': '+8:00', 'description': 'Beijing, Perth, Singapore, Hong Kong'}}, 'email': 'slavoljub.andelkovic@example.com', 'login': {'uuid': 'b0dd33d8-1630-4a30-9797-1abfc2d4da1f', 'username': 'organicladybug173', 'password': '***', 'salt': 'dzmdQldg', 'md5': 'f68dca7fac4c1b9f20fe8fd36f55e093', 'sha1': '83c39c4b69906e0f835e9ae446f12de3c9edb784', 'sha256': 'c7dfee8cc93a87a48977b6c661c3d0c15756ea4e7f0c67a01e0fe382b4ff6de0'}, 'dob': {'date': '1980-11-05T03:53:19.211Z', 'age': 42}, 'registered': {'date': '2016-02-23T00:54:40.278Z', 'age': 7}, 'phone': '031-8286-094', 'cell': '063-3022-747', 'id': {'name': 'SID', 'value': '340981456'}, 'picture': {'large': 'https://randomuser.me/api/portraits/men/94.jpg', 'medium': 'https://randomuser.me/api/portraits/med/men/94.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/94.jpg'}, 'nat': 'RS'}], 'info': {'seed': '4151836b0f25a93b', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T20:02:02.103+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230801T000000, start_date=20230816T200201, end_date=20230816T200202
+[2023-08-16T20:02:02.151+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T20:02:02.191+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

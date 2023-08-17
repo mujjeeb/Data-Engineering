@@ -1,0 +1,23 @@
+[2023-08-16T19:57:13.070+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-07T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:13.078+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-07T00:00:00+00:00 [queued]>
+[2023-08-16T19:57:13.080+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:13.081+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 6
+[2023-08-16T19:57:13.082+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:13.092+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-07 00:00:00+00:00
+[2023-08-16T19:57:13.103+0000] {standard_task_runner.py:55} INFO - Started process 1802 to run task
+[2023-08-16T19:57:13.108+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'scheduled__2023-08-07T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmpe_txn09g']
+[2023-08-16T19:57:13.109+0000] {standard_task_runner.py:83} INFO - Job 6: Subtask get_data_from_api
+[2023-08-16T19:57:13.181+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api scheduled__2023-08-07T00:00:00+00:00 [running]> on host c0eab1525b89
+[2023-08-16T19:57:13.246+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-07T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-07T00:00:00+00:00
+[2023-08-16T19:57:14.445+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'male', 'name': {'title': 'Mr', 'first': 'Floyd', 'last': 'Lucas'}, 'location': {'street': {'number': 9428, 'name': 'Groveland Terrace'}, 'city': 'Scurry', 'state': 'New York', 'country': 'United States', 'postcode': 71093, 'coordinates': {'latitude': '84.4462', 'longitude': '-172.7064'}, 'timezone': {'offset': '-3:30', 'description': 'Newfoundland'}}, 'email': 'floyd.lucas@example.com', 'login': {'uuid': '584f5d9a-b2d9-4b44-b54a-ff20a46e202c', 'username': 'crazyostrich975', 'password': '***', 'salt': 'QiYKSrr7', 'md5': 'c4efb954421147c35d7fdcb7b249a060', 'sha1': '58ba28de45a18af84c9eb5699c0c55df131a2c76', 'sha256': 'dfd807e91e97c832e50880bb386157840b0407ec4f2ecc0717083cb9e8e6c6b2'}, 'dob': {'date': '1997-11-23T07:36:00.036Z', 'age': 25}, 'registered': {'date': '2005-07-05T00:58:08.251Z', 'age': 18}, 'phone': '(724) 910-1715', 'cell': '(972) 409-9630', 'id': {'name': 'SSN', 'value': '074-46-8340'}, 'picture': {'large': 'https://randomuser.me/api/portraits/men/5.jpg', 'medium': 'https://randomuser.me/api/portraits/med/men/5.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/5.jpg'}, 'nat': 'US'}], 'info': {'seed': '78db84d8bbc0a7a8', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T19:57:14.489+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230807T000000, start_date=20230816T195713, end_date=20230816T195714
+[2023-08-16T19:57:14.534+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T19:57:14.559+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

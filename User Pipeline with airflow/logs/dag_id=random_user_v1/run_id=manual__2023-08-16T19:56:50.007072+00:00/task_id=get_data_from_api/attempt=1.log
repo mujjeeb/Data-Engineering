@@ -1,0 +1,23 @@
+[2023-08-16T19:57:10.109+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api manual__2023-08-16T19:56:50.007072+00:00 [queued]>
+[2023-08-16T19:57:10.117+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: random_user_v1.get_data_from_api manual__2023-08-16T19:56:50.007072+00:00 [queued]>
+[2023-08-16T19:57:10.119+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:10.121+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 6
+[2023-08-16T19:57:10.123+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T19:57:10.141+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-08-16 19:56:50.007072+00:00
+[2023-08-16T19:57:10.157+0000] {standard_task_runner.py:55} INFO - Started process 1793 to run task
+[2023-08-16T19:57:10.166+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'random_user_v1', 'get_data_from_api', 'manual__2023-08-16T19:56:50.007072+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/random_user_etl.py', '--cfg-path', '/tmp/tmpkmbae8s8']
+[2023-08-16T19:57:10.168+0000] {standard_task_runner.py:83} INFO - Job 3: Subtask get_data_from_api
+[2023-08-16T19:57:10.245+0000] {task_command.py:389} INFO - Running <TaskInstance: random_user_v1.get_data_from_api manual__2023-08-16T19:56:50.007072+00:00 [running]> on host c0eab1525b89
+[2023-08-16T19:57:10.317+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=mujjeeb
+AIRFLOW_CTX_DAG_ID=random_user_v1
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-16T19:56:50.007072+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-16T19:56:50.007072+00:00
+[2023-08-16T19:57:11.593+0000] {python.py:177} INFO - Done. Returned value was: {'results': [{'gender': 'male', 'name': {'title': 'Mr', 'first': 'José Manuél', 'last': 'Palomo'}, 'location': {'street': {'number': 5017, 'name': 'Avenida Angola'}, 'city': 'Temascaltepec', 'state': 'Durango', 'country': 'Mexico', 'postcode': 54907, 'coordinates': {'latitude': '22.5267', 'longitude': '-3.3966'}, 'timezone': {'offset': '-5:00', 'description': 'Eastern Time (US & Canada), Bogota, Lima'}}, 'email': 'josemanuel.palomo@example.com', 'login': {'uuid': '8a381d47-4284-4137-b0c6-8062f668fe4a', 'username': 'silverkoala566', 'password': '***', 'salt': 'rkFqgmD8', 'md5': '0ef8500274a0707d60bc30458c9b7499', 'sha1': '84ce665afc80939442267c084d15252cb6a600aa', 'sha256': 'f114bf224d15a08677db201816cd5915a0ce7e714ae8d953f6e1796cd87882b3'}, 'dob': {'date': '1947-09-14T08:15:26.150Z', 'age': 75}, 'registered': {'date': '2010-10-31T03:13:14.375Z', 'age': 12}, 'phone': '(694) 459 8368', 'cell': '(635) 328 9619', 'id': {'name': 'NSS', 'value': '42 95 05 5684 5'}, 'picture': {'large': 'https://randomuser.me/api/portraits/men/16.jpg', 'medium': 'https://randomuser.me/api/portraits/med/men/16.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/16.jpg'}, 'nat': 'MX'}], 'info': {'seed': '833bf92f74fd60ba', 'results': 1, 'page': 1, 'version': '1.4'}}
+[2023-08-16T19:57:11.620+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=random_user_v1, task_id=get_data_from_api, execution_date=20230816T195650, start_date=20230816T195710, end_date=20230816T195711
+[2023-08-16T19:57:11.652+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-08-16T19:57:11.679+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check
