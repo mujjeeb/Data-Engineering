@@ -1,4 +1,4 @@
-# Data Engineering Projects in Python
+# Data Engineering Projects
 
 This folder contains a collection of data engineering projects written in Python. These projects focus on various aspects of data engineering, including data extraction, transformation, loading (ETL), data integration, and data pipeline development. Each project is designed to demonstrate different data engineering techniques and practices. 
 
